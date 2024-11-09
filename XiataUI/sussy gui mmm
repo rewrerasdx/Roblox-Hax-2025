@@ -1504,6 +1504,8 @@ function ary:Tab(tite)
 		end
 
 		Dropdown:Refresh(M_reaIarray)
+
+		return Dropdown
 	end
 	
 	function Tab:TextBox(name, ph, func, focuslost, clear, limit)
