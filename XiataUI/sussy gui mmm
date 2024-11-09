@@ -813,7 +813,7 @@ function ary:Tab(tite)
 		sidername.Position = UDim2.new(0, 51, 0, 0)
 		sidername.Size = UDim2.new(0, 148, 0, 35)
 		sidername.Font = Enum.Font.Arial
-		sidername.Text = "Sider"
+		sidername.Text = name
 		sidername.TextColor3 = Color3.fromRGB(255, 255, 255)
 		sidername.TextSize = 14.000
 		sidername.TextXAlignment = Enum.TextXAlignment.Left
