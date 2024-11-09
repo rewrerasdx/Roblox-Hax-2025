@@ -1489,7 +1489,6 @@ function ary:Tab(tite)
 					M_ididit = not M_ididit
 					store[i] = M_ididit
 					M_dditem.Text = (M_ididit and (utf8.char(10003).."\t") or "") .. tostring(i)
-					M_dropthing()
 					M_Cback3(v)
 				end)
 			end
