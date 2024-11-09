@@ -915,6 +915,10 @@ function ary:Tab(tite)
 				slider:Set(tonumber(sidervaue.Text))
 			end
 		end)
+
+		function slider:SetVisible(bool)
+			pagefabsider.Visible = bool
+		end
 		
 		return slider
 	end
